@@ -35,7 +35,8 @@ npm test
 
 npm run coverage
 ```
-
+---
 
 ## Coveralls Badge
+
 [![Coverage Status](https://coveralls.io/repos/github/Kavindi16/VIII_Development/badge.svg)](https://coveralls.io/github/Kavindi16/VIII_Development)
