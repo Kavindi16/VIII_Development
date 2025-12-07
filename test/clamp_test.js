@@ -12,11 +12,6 @@ describe('clamp function', () => {
     expect(clamp(20, 0, 10)).to.equal(10)
   })
 
-  it.skip('should return the number if it is within the bounds', () => {
-    expect(clamp(3, 0, 5)).to.equal(3)
-    expect(clamp(0, -5, 5)).to.equal(0)
-  })
-
   it.skip('should handle non-number inputs by converting them to numbers', () => {
     expect(clamp('2', 0, 5)).to.equal(2)
     expect(clamp('10', 0, 5)).to.equal(5)
